@@ -1,0 +1,377 @@
+.main-button {
+    position: absolute;
+    margin: 0;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+    transition: color 0.15s, text-shadow 0.15s;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 999;
+}
+
+.main-button-suffix {
+    color: rgb(0, 132, 255);
+    text-shadow: 0 0 12px rgba(0, 132, 255, 0.5);
+}
+
+
+
+html {
+  cursor: url('../others/cursor.html'), default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+a {
+  color: #e4e3e3;
+  text-decoration: none;
+}
+
+body,
+input {
+  color: #e4e3e3;
+  background-color: #000;
+}
+
+@font-face {
+  font-family: courier_regular;
+  src: url('../others/Consolas.html');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: consolas, sans-serif;
+  border-radius: 4px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+input {
+  outline: 0;
+  border: none;
+}
+
+td {
+  padding: 3px;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-style: dashed;
+}
+
+pre {
+  font-size: 1.15em;
+}
+
+.box,
+body,
+input {
+  background-color: #000;
+}
+
+.box {
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.container {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#description_block {
+  margin-left: 0.65pc;
+}
+
+.emoticon {
+  vertical-align: middle;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -3;
+}
+
+#pattern {
+  background: transparent url('../others/dot.html') repeat 0 0;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  opacity: 1;
+}
+
+#pattern,
+#background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.start-block {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.start-btn {
+  --color: #ffa260;
+  --hover: #ff7a60;
+}
+
+.start-btn:hover, .start-btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  cursor: url('../others/cursor.html'), default;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  border-radius: 25px
+}
+
+#background {
+  z-index: -2;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 135%;
+  min-height: 110%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  overflow: hidden;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: small;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+.link-div {
+    position: absolute;
+    margin: 0;
+    bottom: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+.mx-auto{
+    margin-left:auto;
+    margin-right:auto
+}
+.w-44{
+    width:6rem
+}
+
+.rounded-full{
+    border-radius:9999px
+}
+
+.h-44{
+    height:6rem
+}
+
+
+.start-block {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.start-btn {
+  --color: #ffa260;
+  --hover: #ff7a60;
+}
+
+.start-btn:hover, .start-btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  cursor: url('../others/cursor.html'), default;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  border-radius: 25px
+}
+
+#background {
+  z-index: -2;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 135%;
+  min-height: 110%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  overflow: hidden;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.link-pfp {
+    position: absolute;
+    margin: 0;
+    bottom: 60%;
+    left: 50%;
+    transform: translateX(-39%);
+    z-index: 999;
+}
+
+
+.animate-slide-up{
+    animation:slide-up .35s ease
+}
+
+.link-button {
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.15s, text-shadow 0.15s;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.link-button:hover {
+    color: rgb(0, 132, 255);
+    text-shadow: 0 0 12px rgba(0, 132, 255, 0.5);
+}
+
+.separator-button {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tos-div {
+    position: absolute;
+    margin: 0;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.tos-text {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tos-button {
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    text-shadow: 0 0 12px rgba(0, 132, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    overflow: hidden;
+    font-family: Roboto Mono;
+    background-color: black;
+    height: 100vh;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
